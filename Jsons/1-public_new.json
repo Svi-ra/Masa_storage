@@ -53,7 +53,7 @@
         "defaultProps": {
           "gridProps": { "cols": 4, "spacing": "xs" },
           "showLabel": false,
-          "grow": false
+          "grow": true
         },
         "styles": {
           "root": {
