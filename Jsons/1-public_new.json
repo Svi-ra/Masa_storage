@@ -46,7 +46,10 @@
           "grow": false
         },
         "styles": {
-          "root": { "maxWidth": "600px", "marginLeft": "auto", "marginRight": "auto" }
+          "root": { "maxWidth": "600px", "marginLeft": "auto", "marginRight": "auto" },
+          "item": { "borderRadius": "50%", "aspectRatio": "1", "overflow": "hidden" },
+          "itemImage": { "borderRadius": "50%" },
+          "itemButton": { "borderRadius": "50%", "aspectRatio": "1" }
         }
       },
       "ViewportIcons": {
