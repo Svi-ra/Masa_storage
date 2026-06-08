@@ -44,7 +44,7 @@
       "Image": {
         "styles": {
           "root": {
-            "transform": "scale(2)",
+            "transform": "scale(1)",
             "transformOrigin": "center center"
           }
         }
@@ -53,11 +53,11 @@
         "defaultProps": {
           "gridProps": { "cols": 4, "spacing": "xs" },
           "showLabel": false,
-          "grow": true
+          "grow": false
         },
         "styles": {
           "root": {
-            "maxWidth": "600px",
+            "maxWidth": "100px",
             "marginLeft": "auto",
             "marginRight": "auto"
           }
