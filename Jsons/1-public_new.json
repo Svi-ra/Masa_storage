@@ -34,13 +34,18 @@
         }
       },
       "Card": {
-        "defaultProps": {
-          "radius": "xl"
-        },
         "styles": {
           "root": {
             "borderRadius": "50%",
             "overflow": "hidden"
+          }
+        }
+      },
+      "Image": {
+        "styles": {
+          "root": {
+            "transform": "scale(1.2)",
+            "transformOrigin": "center center"
           }
         }
       },
