@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "themeOverrides": {
+    "components": {
+      "Text": {
+        "defaultProps": {
+          "ta": "justify"
+        }
+      },
+      "AppBuilderTextWidgetComponent": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "textAlign": "justify"
+            }
+          }
+        }
+      },
+      "MarkdownWidgetComponent": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "textAlign": "justify"
+            }
+          }
+        }
+      }
+    }
+  }
+}
