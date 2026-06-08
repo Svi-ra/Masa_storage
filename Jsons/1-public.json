@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "themeOverrides": {
+    "colors": {
+      "artcharm": [
+        "#fceeee",
+        "#f6dada",
+        "#f0c5c5",
+        "#eab0b0",
+        "#e49c9c",
+        "#de8787",
+        "#d87373",
+        "#c76565",
+        "#9e6060",
+        "#7d4c4c"
+      ]
+    },
+    "primaryColor": "artcharm",
+    "primaryShade": { "light": 8, "dark": 8 },
+    "other": { "forceColorScheme": "light" },
+    "components": {
+      "ViewportBranding": {
+        "defaultProps": {
+          "light": { "logo": "https://cdn.artcharm.md/imagini/logo.svg" },
+          "dark": { "logo": "https://cdn.artcharm.md/imagini/logo.svg" }
+        }
+      },
+      "SelectGridComponent": {
+        "defaultProps": {
+          "gridProps": { "cols": 4, "spacing": "xs" },
+          "showLabel": false,
+          "grow": false
+        },
+        "styles": {
+          "root": { "maxWidth": "600px", "marginLeft": "auto", "marginRight": "auto" }
+        }
+      },
+      "ViewportIcons": {
+        "defaultProps": {
+          "enableImportExportButtons": false
+        }
+      }
+    }
+  }
+}
