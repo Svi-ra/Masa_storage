@@ -33,10 +33,15 @@
           }
         }
       },
-      "ViewportBranding": {
+      "Card": {
         "defaultProps": {
-          "light": { "logo": "https://cdn.artcharm.md/imagini/logo.svg" },
-          "dark": { "logo": "https://cdn.artcharm.md/imagini/logo.svg" }
+          "radius": "xl"
+        },
+        "styles": {
+          "root": {
+            "borderRadius": "50%",
+            "overflow": "hidden"
+          }
         }
       },
       "SelectGridComponent": {
@@ -46,10 +51,17 @@
           "grow": false
         },
         "styles": {
-          "root": { "maxWidth": "600px", "marginLeft": "auto", "marginRight": "auto" },
-          "item": { "borderRadius": "50%", "aspectRatio": "1", "overflow": "hidden" },
-          "itemImage": { "borderRadius": "50%" },
-          "itemButton": { "borderRadius": "50%", "aspectRatio": "1" }
+          "root": {
+            "maxWidth": "600px",
+            "marginLeft": "auto",
+            "marginRight": "auto"
+          }
+        }
+      },
+      "ViewportBranding": {
+        "defaultProps": {
+          "light": { "logo": "https://cdn.artcharm.md/imagini/logo.svg" },
+          "dark": { "logo": "https://cdn.artcharm.md/imagini/logo.svg" }
         }
       },
       "ViewportIcons": {
