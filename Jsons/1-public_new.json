@@ -44,7 +44,7 @@
       "Image": {
         "styles": {
           "root": {
-            "transform": "scale(1)",
+            "transform": "scale(10)",
             "transformOrigin": "center center"
           }
         }
