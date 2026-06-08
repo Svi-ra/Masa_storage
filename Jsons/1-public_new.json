@@ -57,7 +57,7 @@
         },
         "styles": {
           "root": {
-            "maxWidth": "100px",
+            "maxWidth": "600px",
             "marginLeft": "auto",
             "marginRight": "auto"
           }
