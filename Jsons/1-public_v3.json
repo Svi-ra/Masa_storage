@@ -18,7 +18,41 @@
     "primaryColor": "artcharm",
     "primaryShade": { "light": 8, "dark": 8 },
     "other": { "forceColorScheme": "light" },
+
+    "scale": 0.9,
+
+    "fontSizes": {
+      "xs":  "0.7rem",
+      "sm":  "0.8rem",
+      "md":  "0.95rem",
+      "lg":  "1.1rem",
+      "xl":  "1.25rem"
+    },
+
+    "spacing": {
+      "xs": "0.5rem",
+      "sm": "0.65rem",
+      "md": "0.9rem",
+      "lg": "1.1rem",
+      "xl": "1.75rem"
+    },
+
     "components": {
+      "AppBuilderAppShellTemplatePage": {
+        "defaultProps": {
+          "headerHeight": {
+            "base": "3em",
+            "md":   "3.5em",
+            "lg":   "4em"
+          },
+          "navbarWidth": {
+            "md": 260,
+            "lg": 300,
+            "xl": 340
+          }
+        }
+      },
+
       "AppBuilderTextWidgetComponent": {
         "defaultProps": {
           "styles": {
@@ -28,21 +62,20 @@
           }
         }
       },
+
       "Button": {
         "defaultProps": {
-          "variant": "filled",
-          "radius": "8px",
-          "size": "sm",
-          "fw": "300"
+          "size": "sm"
         },
         "styles": {
           "root": {
             "display": "block",
-            "marginLeft": "0px",
-            "marginRight": "0px"
+            "marginLeft": "auto",
+            "marginRight": "auto"
           }
         }
       },
+
       "Card": {
         "styles": {
           "root": {
@@ -51,6 +84,7 @@
           }
         }
       },
+
       "Image": {
         "styles": {
           "root": {
@@ -59,6 +93,7 @@
           }
         }
       },
+
       "SelectGridComponent": {
         "defaultProps": {
           "gridProps": { "cols": 4, "spacing": "xs" },
@@ -73,12 +108,14 @@
           }
         }
       },
+
       "ViewportBranding": {
         "defaultProps": {
           "light": { "logo": "https://cdn.artcharm.md/imagini/logo.svg" },
-          "dark": { "logo": "https://cdn.artcharm.md/imagini/logo.svg" }
+          "dark":  { "logo": "https://cdn.artcharm.md/imagini/logo.svg" }
         }
       },
+
       "ViewportIcons": {
         "defaultProps": {
           "enableImportExportButtons": false
