@@ -91,7 +91,7 @@
       "Image": {
         "styles": {
           "root": {
-            "transform": "scale(1.2)",
+            "transform": "scale(1)",
             "transformOrigin": "center center"
           }
         }
