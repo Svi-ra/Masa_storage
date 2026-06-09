@@ -31,7 +31,7 @@
       "Button": {
         "defaultProps": {
           "variant": "filled",
-          "radius": "sm",
+          "radius": "5px",
           "size": "sm",
           "fw": "300"
         },
