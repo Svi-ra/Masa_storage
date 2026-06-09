@@ -65,13 +65,16 @@
 
       "Button": {
         "defaultProps": {
-          "size": "sm"
+          "variant": "filled",
+          "radius": "8px",
+          "size": "sm",
+          "fw": "300"
         },
         "styles": {
           "root": {
             "display": "block",
-            "marginLeft": "auto",
-            "marginRight": "auto"
+            "marginLeft": "0px",
+            "marginRight": "0px"
           }
         }
       },
