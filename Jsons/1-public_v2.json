@@ -43,7 +43,22 @@
           }
         }
       },
-
+      "Card": {
+        "styles": {
+          "root": {
+            "borderRadius": "12px",
+            "overflow": "hidden"
+          }
+        }
+      },
+      "Image": {
+        "styles": {
+          "root": {
+            "transform": "scale(1)",
+            "transformOrigin": "center center"
+          }
+        }
+      },
       "SelectGridComponent": {
         "defaultProps": {
           "gridProps": { "cols": 4, "spacing": "xs" },
