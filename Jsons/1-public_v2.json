@@ -29,11 +29,16 @@
         }
       },
       "Button": {
+        "defaultProps": {
+          "variant": "filled",
+          "radius": "xl",
+          "size": "sm"
+        },
         "styles": {
           "root": {
             "display": "block",
-            "marginLeft": "auto",
-            "marginRight": "auto"
+            "marginLeft": "0px",
+            "marginRight": "0px"
           }
         }
       },
