@@ -19,11 +19,6 @@
     "primaryShade": { "light": 8, "dark": 8 },
     "other": { "forceColorScheme": "light" },
     "components": {
-      "Text": {
-        "defaultProps": {
-          "ta": "center"
-        }
-      },
       "AppBuilderTextWidgetComponent": {
         "defaultProps": {
           "styles": {
@@ -33,17 +28,12 @@
           }
         }
       },
-      "Stack": {
-        "defaultProps": {
-          "align": "flex-end"
-        }
-      },
       "Button": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "alignSelf": "flex-end"
-            }
+        "styles": {
+          "root": {
+            "display": "block",
+            "marginLeft": "auto",
+            "marginRight": "0"
           }
         }
       },
