@@ -23,7 +23,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "textAlign": "right"
+              "textAlign": "center"
             }
           }
         }
@@ -33,7 +33,7 @@
           "root": {
             "display": "block",
             "marginLeft": "auto",
-            "marginRight": "0"
+            "marginRight": "auto"
           }
         }
       },
