@@ -82,7 +82,7 @@
       "Card": {
         "styles": {
           "root": {
-            "borderRadius": "50%",
+            "borderRadius": "10%",
             "overflow": "hidden"
           }
         }
